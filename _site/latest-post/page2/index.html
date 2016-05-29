@@ -17,7 +17,7 @@
   <meta name="description" content="My blog">
   <meta name="author" content="yuzixun">
   <meta name="keywords" content="ruby, rails, C++, redis, JavaScript">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/latest-post/page2/">
   <title>{ yuzixun }</title>
 
   <!-- Bootstrap Core CSS -->
@@ -250,82 +250,142 @@ If you want to have a static message in your intro layout, disable the dynamic-t
         <h2 id="section">最新文章</h2>
 
 
+        <div>
+          
+            
+<!-- Post List Start -->
+
+<h4 align="left">
+  <strong>2015-06-20</strong>
+  <small>.
+    <a class="category" href="/categories/tech.html">
+      tech
+    </a>
+  .</small>
+  <br class="visible-xs-block">
+  <a href="/tech/2015/06/20/blog-tutorial.html">
+    <strong>Setting up the Blog</strong>
+  </a>
+  <br class="visible-xs-block">
+  <small><a href="/tech/2015/06/20/blog-tutorial.html#disqus_thread">评论</a></small>
+</h4>
+
+<!-- Post List End -->
+
+          
+            
+<!-- Post List Start -->
+
+<h4 align="left">
+  <strong>2015-06-19</strong>
+  <small>.
+    <a class="category" href="/categories/tech.html">
+      tech
+    </a>
+  .</small>
+  <br class="visible-xs-block">
+  <a href="/tech/2015/06/19/writing-posts.html">
+    <strong>Writing posts</strong>
+  </a>
+  <br class="visible-xs-block">
+  <small><a href="/tech/2015/06/19/writing-posts.html#disqus_thread">评论</a></small>
+</h4>
+
+<!-- Post List End -->
+
+          
+            
+<!-- Post List Start -->
+
+<h4 align="left">
+  <strong>2015-06-12</strong>
+  <small>.
+    <a class="category" href="/categories/tech.html">
+      tech
+    </a>
+  .</small>
+  <br class="visible-xs-block">
+  <a href="/tech/2015/06/12/timeline-tutorial.html">
+    <strong>Adding a life event in the Timeline</strong>
+  </a>
+  <br class="visible-xs-block">
+  <small><a href="/tech/2015/06/12/timeline-tutorial.html#disqus_thread">评论</a></small>
+</h4>
+
+<!-- Post List End -->
+
+          
+            
+<!-- Post List Start -->
+
+<h4 align="left">
+  <strong>2015-06-11</strong>
+  <small>.
+    <a class="category" href="/categories/tech.html">
+      tech
+    </a>
+  .</small>
+  <br class="visible-xs-block">
+  <a href="/tech/2015/06/11/social-buttons-tutorial.html">
+    <strong>Modifying the social buttons</strong>
+  </a>
+  <br class="visible-xs-block">
+  <small><a href="/tech/2015/06/11/social-buttons-tutorial.html#disqus_thread">评论</a></small>
+</h4>
+
+<!-- Post List End -->
+
+          
+            
+<!-- Post List Start -->
+
+<h4 align="left">
+  <strong>2015-06-10</strong>
+  <small>.
+    <a class="category" href="/categories/tech.html">
+      tech
+    </a>
+  .</small>
+  <br class="visible-xs-block">
+  <a href="/tech/2015/06/10/contact-tutorial.html">
+    <strong>Modifying the Contact</strong>
+  </a>
+  <br class="visible-xs-block">
+  <small><a href="/tech/2015/06/10/contact-tutorial.html#disqus_thread">评论</a></small>
+</h4>
+
+<!-- Post List End -->
+
+          
+        </div>
+
         
-        <h4> <strong> 2016-05-29 </strong>
-          <small>.
-            <a class="category" href="/categories/编程.html">
-              编程
-            </a>
-          .</small>
-          <strong> <a href="/%E7%BC%96%E7%A8%8B/2016/05/29/%E7%90%86%E8%A7%A3Ruby%E4%B8%AD%E7%9A%84True.html">理解Ruby中的True </a> </strong>
-          <small> <a href="/%E7%BC%96%E7%A8%8B/2016/05/29/%E7%90%86%E8%A7%A3Ruby%E4%B8%AD%E7%9A%84True.html#disqus_thread">评论</a></small>
-        </h4>
+<!-- Pagination Links Start -->
 
-          <ol>
-  <li>
-    <p>在其他语言中，0一般表示false；在Ruby中，0表示的是True。</p>
+<div class="pagination">
 
-    <p>对于Ruby语言的布尔值，其实非常简单：</p>
-
-    <blockquote>
-      <p>除了false和nil，其他值都是真值。</p>
-    </blockquote>
-
-    <p>任何对象非false，非nil，该对象一定是真值。</p>
-
-    <p>再记录点其他内容：</p>
-
-    <ul>
-      <li>nil? ： 只有一种情况为真：</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.nil? 	#=&gt; true
-</code></pre>
-    </div>
-
-    <ul>
-      <li>empty?： 除了nil的对象以外，还有Array,Hash,String(,Set,Queue)等类：</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.empty? 	#=&gt; true
-[].empty? 	#=&gt; true
-{}.empty? 	#=&gt; true
-"".empty? 	#=&gt; true
-</code></pre>
-    </div>
-
-    <ul>
-      <li>blank?：这个是rails中的方法。这个比empty?多了一种为true的情况：</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.blank? 	#=&gt; true
-[].blank? 	#=&gt; true
-{}.blank? 	#=&gt; true
-"".blank?	#=&gt; true
-" ".blank? 	#=&gt; true
-</code></pre>
-    </div>
-
-    <ul>
-      <li>present?：这个也是rails的方法。运行结果正好与blank?相反，即：sth.present? 等于 !sth.blank?</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.present? 	#=&gt; false
-[].present? 	#=&gt; false
-{}.present? 	#=&gt; false
-"".present?		#=&gt; false
-" ".present? 	#=&gt; false
-</code></pre>
-    </div>
-  </li>
-  <li>
-    <p>在其他语言中，true和false作为关键字存在；在Ruby中，true和false是全局变量，引用书中的一句话：</p>
-  </li>
-</ol>
+  <h4>
 
   
+    <a href="/" class="previous">上一页</a>
+  
+
+  
+
+  
+
+  </h4>
+
+</div>
+
+<!-- Pagination Links End -->
+
+
+        
+
         
         <h4><a href="/blog/">更多文章</a></h4>
+
       </div>
     </div>
 </section>
@@ -706,7 +766,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, '', 'https://yuzixun.github.io/');
+    history.pushState({}, '', 'https://yuzixun.github.io/latest-post/page2/');
   }
 }
 </script>

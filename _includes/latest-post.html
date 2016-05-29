@@ -18,10 +18,9 @@
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">评论</a></small>
         </h4>
 
-        {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
-
+          {{ post.excerpt  }}  
+        
         <h4><a href="{{site.baseurl}}/blog/">更多文章</a></h4>
-
       </div>
     </div>
 </section>

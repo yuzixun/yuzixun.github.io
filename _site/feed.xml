@@ -7,6 +7,79 @@
 		<atom:link href="https://yuzixun.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>理解Ruby中的True</title>
+				
+				
+					<description>&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;在其他语言中，0一般表示false；在Ruby中，0表示的是True。&lt;/p&gt;
+
+    &lt;p&gt;对于Ruby语言的布尔值，其实非常简单：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;除了false和nil，其他值都是真值。&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;任何对象非false，非nil，该对象一定是真值。&lt;/p&gt;
+
+    &lt;p&gt;再记录点其他内容：&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;nil? ： 只有一种情况为真：&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nil.nil? 	#=&amp;gt; true
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;empty?： 除了nil的对象以外，还有Array,Hash,String(,Set,Queue)等类：&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nil.empty? 	#=&amp;gt; true
+[].empty? 	#=&amp;gt; true
+{}.empty? 	#=&amp;gt; true
+&quot;&quot;.empty? 	#=&amp;gt; true
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;blank?：这个是rails中的方法。这个比empty?多了一种为true的情况：&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nil.blank? 	#=&amp;gt; true
+[].blank? 	#=&amp;gt; true
+{}.blank? 	#=&amp;gt; true
+&quot;&quot;.blank?	#=&amp;gt; true
+&quot; &quot;.blank? 	#=&amp;gt; true
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;present?：这个也是rails的方法。运行结果正好与blank?相反，即：sth.present? 等于 !sth.blank?&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nil.present? 	#=&amp;gt; false
+[].present? 	#=&amp;gt; false
+{}.present? 	#=&amp;gt; false
+&quot;&quot;.present?		#=&amp;gt; false
+&quot; &quot;.present? 	#=&amp;gt; false
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在其他语言中，true和false作为关键字存在；在Ruby中，true和false是全局变量，引用书中的一句话：&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+				
+				<pubDate>Sun, 29 May 2016 00:00:00 +0800</pubDate>
+				<link>https://yuzixun.github.io/%E7%BC%96%E7%A8%8B/2016/05/29/%E7%90%86%E8%A7%A3Ruby%E4%B8%AD%E7%9A%84True.html</link>
+				<guid isPermaLink="true">https://yuzixun.github.io/%E7%BC%96%E7%A8%8B/2016/05/29/%E7%90%86%E8%A7%A3Ruby%E4%B8%AD%E7%9A%84True.html</guid>
+			</item>
+		
+			<item>
 				<title>Welcome to { Personal } Jekyll Theme!</title>
 				
 				

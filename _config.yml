@@ -16,7 +16,7 @@ url: "https://yuzixun.github.io"
 
 # Google tracking id to track your visitors
 
-# google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-35880426-4"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -181,7 +181,7 @@ exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
 
-paginate_path: "blog/page:num/"
+paginate_path: "index/page:num/"
 
 # Enable minification SASS
 
