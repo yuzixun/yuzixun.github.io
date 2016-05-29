@@ -111,14 +111,14 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/sjtu.jpg"
-    date: "January 2015 - Now"
-    description: "Studying on Big Data"
+    date: "2015年1月-至今"
+    description: "软件工程-大数据方向"
   - image: "/img/timeline/DTMobile.png"
-    date: "July 2013 - June 2015"
-    description: "Software Development Engineer"
+    date: "2013年7月-2015年6月"
+    description: "软件开发工程师"
   - image: "/img/timeline/guet.jpg"
-    date: "September 2009 - June 2013"
-    description: "for Bachelor's degree"
+    date: "2009年9月-2013年6月"
+    description: "测控技术与仪器专业"
 
 # First image of the Timeline
 
