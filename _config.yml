@@ -59,7 +59,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/author.jpg"
 
 ##############################
 # Color the browser elements #
@@ -110,6 +110,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/ikcrm.png"
+    date: "2016年4月-至今"
+    description: "Ruby工程师"
   - image: "/img/timeline/sjtu.jpg"
     date: "2015年1月-至今"
     description: "软件工程-大数据方向"
@@ -121,8 +124,7 @@ events:
     description: "测控技术与仪器专业"
 
 # First image of the Timeline
-
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/default.jpg"
 
 ###########
 # Contact #
@@ -138,16 +140,18 @@ email: "yuzixun1991@icloud.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.jpg"
+# author_blurb: "Ruby Development Engineer"
+# author_blurb_image: "/img/author.jpg"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "zhihu"
-    url: "https://www.zhihu.com/people/yuzixun"
+  - title: "info"
+    url: "https://zhihu.com/people/yuzixun"
+  - title: "facebook"
+    url: "https://facebook.com/yuzixun1991"
   - title: "github"
     url: "https://github.com/yuzixun"
   - title: "rss"
@@ -166,10 +170,10 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  "关于": 'about'
+  "博客": 'latest-post'
+  "个人经历": 'timeline'
+  "社交资料": 'contact'
 
 # Exclusion list from the generated _site
 
