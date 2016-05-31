@@ -191,3 +191,6 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+# 开发语法高亮
+pygments: true
