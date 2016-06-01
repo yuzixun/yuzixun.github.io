@@ -183,7 +183,7 @@ exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
 
-paginate_path: "index/page:num/"
+paginate_path: "blog/page:num/"
 
 # Enable minification SASS
 
