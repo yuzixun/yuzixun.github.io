@@ -272,54 +272,6 @@ If you want to have a static message in your intro layout, disable the dynamic-t
     </blockquote>
 
     <p>任何对象非false，非nil，该对象一定是真值。</p>
-
-    <p>再记录点其他内容：</p>
-
-    <ul>
-      <li>nil? ： 只有一种情况为真：</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.nil? 	#=&gt; true
-</code></pre>
-    </div>
-
-    <ul>
-      <li>empty?： 除了nil的对象以外，还有Array,Hash,String(,Set,Queue)等类：</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.empty? 	#=&gt; true
-[].empty? 	#=&gt; true
-{}.empty? 	#=&gt; true
-"".empty? 	#=&gt; true
-</code></pre>
-    </div>
-
-    <ul>
-      <li>blank?：这个是rails中的方法。这个比empty?多了一种为true的情况：</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.blank? 	#=&gt; true
-[].blank? 	#=&gt; true
-{}.blank? 	#=&gt; true
-"".blank?	#=&gt; true
-" ".blank? 	#=&gt; true
-</code></pre>
-    </div>
-
-    <ul>
-      <li>present?：这个也是rails的方法。运行结果正好与blank?相反，即：sth.present? 等于 !sth.blank?</li>
-    </ul>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>nil.present? 	#=&gt; false
-[].present? 	#=&gt; false
-{}.present? 	#=&gt; false
-"".present?		#=&gt; false
-" ".present? 	#=&gt; false
-</code></pre>
-    </div>
-  </li>
-  <li>
-    <p>在其他语言中，true和false作为关键字存在；在Ruby中，true和false是全局变量，引用书中的一句话：</p>
   </li>
 </ol>
 
