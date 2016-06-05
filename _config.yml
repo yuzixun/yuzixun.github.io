@@ -106,10 +106,7 @@ disqus-shortname: "panossakkos"
 syntax-highlight: True
 
 excerpt_separator: <!--more--> 
-
-markdown: redcarpet
-redcarpet: 
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "highlight", "with_toc_data", "strikethrough", "underline"]
+markdown: kramdown
 
 ############
 # Timeline #
